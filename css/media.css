@@ -1,0 +1,588 @@
+@media only screen and (max-width: 600px) {
+    
+    /**********CONTACT**********/
+    .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        align-items: center;
+        /* border-radius: 0px;
+        background: linear-gradient(145deg, #f0f0f0, #cacaca);
+        box-shadow:  20px 20px 60px #bebebe,
+                    -20px -20px 60px #ffffff; */
+        border-radius: 0px;
+        background: linear-gradient(145deg, #ffffff, #e6e6e6);
+        box-shadow:  20px 20px 60px #d9d9d9,
+                    -20px -20px 60px #ffffff;
+    }
+
+    .main .bio, .main .contact {
+        max-width: 320px;
+        margin-top: 0vh;
+    }
+
+    .main-org {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main .contact form fieldset label {
+        color: black;
+    }
+
+    .main .contact form input,
+    .main .contact form textarea {
+        color: black;
+        border-bottom: 1px solid black;
+        transition: border 300ms ease-in-out;
+        font-family: 'Comfortaa', cursive;
+    }
+      
+    .main .contact form input::placeholder,
+    .main .contact form textarea::placeholder {
+        color: black;
+    }
+
+    .main .header, .main legend.header {
+        color: black;
+    }
+
+    /**********SKILL**********/
+    
+    .features {
+        margin-right: 2%;
+        /* padding: 10px;  */
+        display: flex;
+        flex-direction: column;
+        /* text-align: center; */
+    }
+
+    .features-two {
+        margin-left: 5%;
+        /* padding: 10px; */
+        display: flex;
+        flex-direction: column;
+        /* text-align: center; */
+    }
+
+    h3 {
+        margin-top: 5%;
+    }
+
+    .fatajsve{
+        display: flex;
+        flex-direction: column;
+      }
+
+    /*Picture/About me*/
+    .container-imtx {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        background-color: white;
+    }
+
+    .ab-image img{
+        width: 150px;
+        height: 150px;
+        margin-left: 5%;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    .box-txt {
+        margin: 0 5% 5% 5%;
+    }
+
+    /**********PROJECT**********/
+    .project {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 12%;
+        padding: 0;
+    }
+
+    .project-item {
+        margin: 0;
+        margin-bottom: 1%;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        backdrop-filter: blur( 5.0px );
+        -webkit-backdrop-filter: blur( 5.0px );
+    }
+
+    .project-img img{
+        margin-left: 0;
+        padding-left: 0;
+        display: flex;
+        justify-content: center;
+        width: 250px;
+        height: 250px;
+        border-bottom: 1px solid white;
+    } 
+    
+    .scrollable {
+        height: 100%;
+        overflow-y: scroll;
+    }
+}
+
+
+@media only screen and (max-height: 600px) {
+
+    /**********CONTACT**********/
+    .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        align-items: center;
+        border-radius: 0px;
+        /* background: linear-gradient(145deg, #f0f0f0, #cacaca);
+        box-shadow:  20px 20px 60px #bebebe,
+                    -20px -20px 60px #ffffff; */
+        border-radius: 0px;
+        background: linear-gradient(145deg, #ffffff, #e6e6e6);
+        box-shadow:  20px 20px 60px #d9d9d9,
+                    -20px -20px 60px #ffffff;
+    }
+
+    .main .bio, .main .contact {
+        max-width: 320px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .main-org {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .main .contact form fieldset label {
+        color: black;
+    }
+
+    .main .contact form input,
+    .main .contact form textarea {
+        color: black;
+        border-bottom: 1px solid black;
+        transition: border 300ms ease-in-out;
+        font-family: 'Comfortaa', cursive;
+    }
+      
+    .main .contact form input::placeholder,
+    .main .contact form textarea::placeholder {
+        color: black;
+    }
+
+    .main .header, .main legend.header {
+        color: black;
+    }
+
+    /**********BUTTON*********/
+
+    button.btn {
+        margin-top: 10%;
+    }
+
+
+    /**********SKILL**********/
+    
+    .features {
+        /* margin: 0 1% 0 1%;
+        padding: 10px; */
+        display: flex;
+        flex-direction: column;
+        /* text-align: center; */
+    }
+
+    .features-two {
+        /* margin: 0 1% 0 1%;
+        padding: 10px; */
+        display: flex;
+        flex-direction: column;
+        /* text-align: center; */
+    }
+
+    h3 {
+        margin-top: 5%;
+    }
+
+    /*Picture/About me*/
+    .container-imtx {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        background-color: white;
+    }
+
+    .ab-image img{
+        width: 150px;
+        height: 150px;
+        margin-left: 5%;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    .box-txt {
+        margin: 0 5% 5% 5%;
+    }
+
+    /**********PROJECT**********/
+    .project {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 12%;
+        padding: 0;
+    }
+
+    .project-item {
+        margin: 0;
+        margin-bottom: 1%;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        backdrop-filter: blur( 5.0px );
+        -webkit-backdrop-filter: blur( 5.0px );
+    }
+
+    .project-img img{
+        margin-left: 0;
+        padding-left: 0;
+        display: flex;
+        justify-content: center;
+        width: 250px;
+        height: 250px;
+        border-bottom: 1px solid white;
+    } 
+    
+    .scrollable {
+        height: 100%;
+        overflow-y: scroll;
+    }
+}
+
+/********************400********************/
+
+@media only screen and (max-width: 400px) {
+    
+    /**********CONTACT**********/
+    .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        align-items: center;
+        background: white;
+        height: 93vh;
+    }
+
+    .main .bio, .main .contact {
+        max-width: 320px;
+        margin-top: 0vh;
+    }
+
+    .main-org {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main .contact form fieldset label {
+        color: black;
+    }
+
+    .main .contact form input,
+    .main .contact form textarea {
+        color: black;
+        border-bottom: 1px solid black;
+        transition: border 300ms ease-in-out;
+        font-family: 'Comfortaa', cursive;
+    }
+      
+    .main .contact form input::placeholder,
+    .main .contact form textarea::placeholder {
+        color: black;
+    }
+
+    .main .header, .main legend.header {
+        color: black;
+    }
+    
+    .main .bio .profile-img {
+        margin-top: 6%;
+        max-width: 7em;
+        border-radius: 50%;
+      }
+
+     /**********BUTTON*********/
+
+     button.btn {
+        margin-top: 20%;
+        padding: 10px 33px;
+    }
+
+    /**********SKILL**********/
+    
+    .features {
+        /* margin: 0 1% 0 1%;
+        padding: 10px; */
+        display: flex;
+        flex-direction: column;
+        /* text-align: center; */
+    }
+
+    .features-two {
+        /* margin: 0 1% 0 1%;
+        padding: 10px; */
+        display: flex;
+        flex-direction: column;
+        /* text-align: center; */
+    }
+
+    h3 {
+        margin-top: 5%;
+    }
+
+    /*Picture/About me*/
+    .container-imtx {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        background-color: white;
+    }
+
+    .ab-image img{
+        width: 150px;
+        height: 150px;
+        margin-left: 5%;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    .box-txt {
+        margin: 0 5% 5% 5%;
+    }
+
+    /**********PROJECT**********/
+    .project {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 12%;
+        padding: 0;
+    }
+
+    .project-item {
+        margin: 0;
+        margin-bottom: 1%;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        backdrop-filter: blur( 5.0px );
+        -webkit-backdrop-filter: blur( 5.0px );
+    }
+
+    .project-img img{
+        margin-left: 0;
+        padding-left: 0;
+        display: flex;
+        justify-content: center;
+        width: 250px;
+        height: 250px;
+        border-bottom: 1px solid white;
+    } 
+    
+    .scrollable {
+        height: 100%;
+        overflow-y: scroll;
+    }
+}
+
+
+@media only screen and (max-height: 400px) {
+
+    /**********CONTACT**********/
+    .main {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        align-items: center;
+        background: white;
+    }
+
+    .main .bio, .main .contact {
+        max-width: 320px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .main-org {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .main .contact form fieldset label {
+        color: black;
+    }
+
+    .main .contact form input,
+    .main .contact form textarea {
+        color: black;
+        border-bottom: 1px solid black;
+        transition: border 300ms ease-in-out;
+        font-family: 'Comfortaa', cursive;
+    }
+      
+    .main .contact form input::placeholder,
+    .main .contact form textarea::placeholder {
+        color: black;
+    }
+
+    .main .header, .main legend.header {
+        color: black;
+    }
+
+    /**********BUTTON*********/
+
+    button.btn {
+        margin-top: 20%;
+    }
+
+
+    /**********SKILL**********/
+    
+    .features {
+        /* margin: 0 1% 0 1%;
+        padding: 10px; */
+        display: flex;
+        flex-direction: column;
+        /* text-align: center; */
+    }
+
+    .features-two {
+        /* margin: 0 1% 0 1%;
+        padding: 10px; */
+        display: flex;
+        flex-direction: column;
+        /* text-align: center; */
+    }
+
+    h3 {
+        margin-top: 5%;
+    }
+
+    /*Picture/About me*/
+    .container-imtx {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        background-color: white;
+    }
+
+    .ab-image img{
+        width: 150px;
+        height: 150px;
+        margin-left: 5%;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    .box-txt {
+        margin: 0 5% 5% 5%;
+    }
+
+    /**********PROJECT**********/
+    .project {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 12%;
+        padding: 0;
+    }
+
+    .project-item {
+        margin: 0;
+        margin-bottom: 1%;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        backdrop-filter: blur( 5.0px );
+        -webkit-backdrop-filter: blur( 5.0px );
+    }
+
+    .project-img img{
+        margin-left: 0;
+        padding-left: 0;
+        display: flex;
+        justify-content: center;
+        width: 250px;
+        height: 250px;
+        border-bottom: 1px solid white;
+    } 
+    
+    .scrollable {
+        height: 100%;
+        overflow-y: scroll;
+    }
+}
